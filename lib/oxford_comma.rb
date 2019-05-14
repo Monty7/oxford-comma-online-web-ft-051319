@@ -7,7 +7,7 @@ def oxford_comma(array)
     when 3
       last_string = array.pop
       joinedString = array.join(", ")
-      "#{joinedString} and #{last_string}"
+      "#{joinedString}, and #{last_string}"
   end
   
 end
