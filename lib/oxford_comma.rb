@@ -5,7 +5,7 @@ def oxford_comma(array)
     when 2 
       array.join(" and ")
     when 3
-      array.with_each_with
+      array.
   end
   
 end
