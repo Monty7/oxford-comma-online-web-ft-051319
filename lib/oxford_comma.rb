@@ -4,7 +4,7 @@ def oxford_comma(array)
       array.join
     when 2 
       array.join(" and ")
-    when 3
+    when > 3
       last_string = array.pop
       joinedString = array.join(", ")
       "#{joinedString}, and #{last_string}"
