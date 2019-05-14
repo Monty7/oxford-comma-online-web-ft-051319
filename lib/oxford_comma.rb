@@ -1,6 +1,7 @@
 def oxford_comma(array)
   case array.size
-    when 1
+    when 
+      
   end
   array.join(" and ");
 end
