@@ -5,7 +5,7 @@ def oxford_comma(array)
     when 2 
       array.join(" and ")
     when 3
-      last_string = array.last
+      last_string = array.pop
   end
   
 end
