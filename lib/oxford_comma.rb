@@ -7,5 +7,5 @@ def oxford_comma(array)
     when 3
       array.join(" and ")
   end
-  array.join(" and ");
+  array.join(" an");
 end
